@@ -34,10 +34,10 @@ permissions:
   contents: read
 
 jobs:
-  terraform:
-    name: 'Terraform'
+  pipeline_test:
+    name: 'federation_test'
     runs-on: ubuntu-latest
-    environment: production
+    environment: test
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
