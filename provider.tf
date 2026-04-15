@@ -1,4 +1,4 @@
 provider "google" {
-  project     = "jm-gcp-pt-jmhrcv-s-dj99d"
+  project     = "jm-gcp-pl-bdkbiekfrbs-d-d29j"
   region      = "europe-west1"
 }
