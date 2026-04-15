@@ -54,8 +54,8 @@ jobs:
       uses: 'google-github-actions/auth@v1'
       with:
         token_format: "access_token"
-        workload_identity_provider: 'projects/374562056824/locations/global/workloadIdentityPools/github-pool/providers/github-provider'
-        service_account: 'terraform@jm-gcp-pt-jmhrcv-s-dj99d.iam.gserviceaccount.com'
+        workload_identity_provider: 'projects/420394334307/locations/global/workloadIdentityPools/github-syzygypl/providers/github-syzygypl'
+        service_account: 'firebase-adminsdk-fbsvc@jm-gcp-pl-bdkbiekfrbs-d-d29j.iam.gserviceaccount.com'
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
     - name: Setup Terraform
